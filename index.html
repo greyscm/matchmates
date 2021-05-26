@@ -68,7 +68,7 @@
 
           <!--Agregado por Diego-->
           <li class="nav-item logged-out" style="display: block;">
-            <a class="nav-link" href="#" data-toggle="modal" data-target="#signinModal">Login</a>
+            <a class="nav-link getstarted" href="#" data-toggle="modal" data-target="#signinModal">Login</a>
           </li>
           <li class="nav-item logged-out" style="display: none;">
             <li style="display: none;">
@@ -78,6 +78,46 @@
           <li class="nav-item logged-in" style="display: none;">
             <a class="nav-link" href="#" id="logout">Logout</a>
           </li>
+
+                <!--Modals-->
+            <div class="modal fade" id="signinModal" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalSignin" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3>Login</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form id="login-form">
+                      <div class="form-group">
+                        <input type="text" id="login-email" class="form-control" placeholder="e-mail" required>
+                      </div>
+                      <div class="form-group">
+                        <input type="password" id="login-password" class="form-control" placeholder="password" required>
+                      </div>
+                      <button type="submit" class="btn btn-secondary btn-block">Login</button>
+                      <button type="button" class="btn btn-info btn-block" id="googleLogin">Login with Google</button>
+                      <button type="button" class="btn btn-primary btn-block" id="facebookLogin">Login with Facebook</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                      <!-- SCRIPTS -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+
           <!--Agregado por Diego-->
           
         </ul>
@@ -497,6 +537,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!--Main Login Diego-->
+  <script src="main.js"></script>
 
 </body>
 
