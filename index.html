@@ -562,6 +562,38 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+
+ <!--FIREBASE Agregado por Diego--> 
+
+  <!-- SDK FIREBASE -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+  <!-- Don't change the format for any other products. -->
+  <!-- etc. -->
+
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCgMf-B4nu15Vl_31pJFaPeJy7XshEqjEQ",
+      authDomain: "proyecto-de-prueba-4d784.firebaseapp.com",
+      projectId: "proyecto-de-prueba-4d784",
+      storageBucket: "proyecto-de-prueba-4d784.appspot.com",
+      messagingSenderId: "802209010826",
+      appId: "1:802209010826:web:e8a4542db27e6f2af98973"
+    };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+  </script>
+
+
   <!--Main Login Diego-->
   <script src="main.js"></script>
 
