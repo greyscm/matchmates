@@ -82,15 +82,9 @@ const setupPosts = (data) => {
 auth.onAuthStateChanged((user) => {
   if (user) {
     console.log("signin");
-    fs.collection("posts")
-      .get()
-      .then((snapshot) => {
-        setupPosts(snapshot.docs);
-        loginCheck(user);
-      });
+    ;
   } else {
     console.log("signout");
-    setupPosts([]);
     loginCheck(user);
   }
 });
