@@ -62,7 +62,7 @@ signInForm.addEventListener("submit", (e) => {
 auth.onAuthStateChanged((user) => {
   if (user) {
     console.log("signin");
-    ;
+    loginCheck(user);
   } else {
     console.log("signout");
     loginCheck(user);
