@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>eNno Bootstrap Template - Index</title>
+  <title>Home-MatchMates</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -64,7 +64,21 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-          <li><a class="getstarted scrollto" href="#about">Log In</a></li>
+          <li><a class="getstarted">Log In</a></li>
+
+          <!--Agregado por Diego-->
+          <li class="getstarted logged-out" style="display: inline;">
+            <a class="nav-link" href="page2.html" data-toggle="modal" data-target="#signinModal">Login</a>
+          </li>
+          <li class="nav-item logged-out" style="display: none;">
+            <li style="display: none;">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#signupModal">Register</a> <!--style="display: none;" para NO mostrar botón REGISTER-->
+            </li>
+          </li>
+          <li class="nav-item logged-in" style="display: none;">
+            <a class="nav-link" href="#" id="logout">Logout</a>
+          </li>
+          <!--Agregado por Diego-->
           
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -377,7 +391,7 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>contacto@matchmates.cl</p>
+                <p>matchmatescommunity@gmail.com</p>
               </div>
 
               <div class="phone">
@@ -449,6 +463,7 @@
           </div>
         </div>
 
+        <!--
         <div class="social-links">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -456,6 +471,7 @@
           <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
           <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
+        -->
 
       </div>
     </div>
