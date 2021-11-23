@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #16df7e;
+  color: #A0774C;
 }
 
 .navbar .getstarted {
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #16df7e;
+  color: #A0774C;
 }
 
 .navbar-mobile .getstarted {
@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #16df7e;
+  color: #A0774C;
 }
 
 #hero .animated {
@@ -534,7 +534,7 @@ section {
 }
 
 .featured-services .icon i {
-  color: #16df7e;
+  color: #A0774C;
   font-size: 36px;
 }
 
@@ -733,7 +733,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #16df7e;
+  color: #A0774C;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -879,11 +879,12 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #16df7e;
+  border: 1px solid #A0774C;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #16df7e;
+  background-color: #A0774C
+   ;
 }
 
 /*--------------------------------------------------------------
@@ -969,7 +970,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #16df7e;
+  color: #A0774C;
 }
 
 .team .member .social i {
@@ -981,7 +982,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #16df7e;
+  border-top: 3px solid #A0774C;
   border-bottom: 3px solid #A0774C;
   padding: 30px;
   width: 100%;
@@ -1037,19 +1038,19 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #16df7e;
+  background: #A0774C;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #16df7e;
+  background: #A0774C;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #16df7e;
-  border-bottom: 3px solid #16df7e;
+  border-top: 3px solid #A0774C;
+  border-bottom: 3px solid #A0774C;
   padding: 30px;
   background-color: #f9f9fa;
 }
@@ -1263,7 +1264,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #16df7e;
+  background: #A0774C;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1294,7 +1295,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #16df7e;
+  background: #A0774C;
   color: #fff;
   text-decoration: none;
 }
